@@ -1,0 +1,9 @@
+C:\Users\HP\source\repos\4_Course_\4_Course_\bin\Debug\4_Course_.exe.config
+C:\Users\HP\source\repos\4_Course_\4_Course_\bin\Debug\4_Course_.exe
+C:\Users\HP\source\repos\4_Course_\4_Course_\bin\Debug\4_Course_.pdb
+C:\Users\HP\source\repos\4_Course_\4_Course_\obj\Debug\_4_Course_.Form1.resources
+C:\Users\HP\source\repos\4_Course_\4_Course_\obj\Debug\_4_Course_.Properties.Resources.resources
+C:\Users\HP\source\repos\4_Course_\4_Course_\obj\Debug\4_Course_.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\4_Course_\4_Course_\obj\Debug\4_Course_.exe
+C:\Users\HP\source\repos\4_Course_\4_Course_\obj\Debug\4_Course_.pdb
+C:\Users\HP\source\repos\4_Course_\4_Course_\obj\Debug\4_Course_.csprojAssemblyReference.cache
