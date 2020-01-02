@@ -68,18 +68,33 @@ namespace _4_Course_
             int red = 0;
             int green = 0;
             int blue = 0;
-            if (pollution > 0 && pollution < 85)
+            if (pollution >= 0 && pollution < 51) // должен быть зеленый( 0, 255, 0)
             {
-                red = 34;
-                green = 139;
-                blue = 34;
+                //red = 34;
+                green = 255;
+                //blue = 34;
             }
-            if (pollution >= 85 && pollution < 170)
+            if (pollution >= 51 && pollution < 102)
             {
                 green = 255;
                 red = 255;
             }
-            else { red = 255; }
+            if (pollution >= 102 && pollution < 153)
+            {
+                green = 127;
+                red = 255;
+            }
+            if (pollution >= 153 && pollution < 204)
+            {
+                
+                red = 255;
+            }
+            if(pollution>=204)
+            { 
+                red = 139;
+                green = 34;
+                blue = 82;
+            }
             Graphics gr = pictureBox1.CreateGraphics();
             //using (var br = new SolidBrush(Color.FromArgb(pollution, 255, 0, 0))) // первое значение в скобках - степень заливки
             using (var br = new SolidBrush(Color.FromArgb(255, red, green, blue)))
