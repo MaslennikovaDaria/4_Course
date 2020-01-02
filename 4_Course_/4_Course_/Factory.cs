@@ -10,17 +10,22 @@ namespace _4_Course_
     {
         public int x;
         public int y;
-        public int radius;
+       
 
         public int pollution;
 
-        public Factory(int X, int Y, int R, int POLLUTION)
+        public Factory(int X, int Y,  int POLLUTION)
         {
             x = X;
             y = Y;
-            radius = R;
+            
 
             pollution = POLLUTION;
+        }
+
+        void ChangePollution ()
+        {
+
         }
     }
 }

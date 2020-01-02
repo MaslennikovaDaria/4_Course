@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Coord.cs" />
     <Compile Include="InfoOut.cs" />
     <Compile Include="Factory.cs" />
     <Compile Include="Treasury.cs" />
