@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace _4_Course_
 {
-    public class treasury
+   public  class WeatherCount
     {
-        public double money;
-        public treasury(double MONEY)
-        {
-            money = MONEY;
-        }
+        public int DaysBeforeRainCount = 0;
+        public int BeforeWindyDayCount = 0;
     }
 }

@@ -10,22 +10,22 @@ namespace _4_Course_
     {
         public int x;
         public int y;
-       
 
-        public int pollution;
-
-        public Factory(int X, int Y,  int POLLUTION)
+        public int days = 0;//Кол-во дней превышающих предел загрязнений
+        public int daysoutofservice = 0;//Сколько дней фабрика будет не работать
+        public bool isworking = true;
+        public double pollution;
+        public int filterday = 7;
+        public int amountoffilters = 0;
+        public Factory(int X, int Y, double POLLUTION)
         {
             x = X;
             y = Y;
-            
+
 
             pollution = POLLUTION;
         }
 
-        void ChangePollution ()
-        {
-
-        }
+       
     }
 }
