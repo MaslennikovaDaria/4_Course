@@ -26,6 +26,12 @@ namespace _4_Course_
             pollution = POLLUTION;
         }
 
-       
+       public double AddingPollution()
+        {
+            if (amountoffilters == 0) //если нет фильтров
+                return 1;
+            else //если есть фильтры
+                return (Math.Pow((0.93), amountoffilters));
+        }
     }
 }

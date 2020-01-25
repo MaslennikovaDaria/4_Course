@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _4_Course_
 {
-    public class treasury
+     class treasury
     {
         public double money;
         public treasury(double MONEY)

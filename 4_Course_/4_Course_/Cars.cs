@@ -18,7 +18,7 @@ namespace _4_Course_
             AmountOfCars = Amount;
         }
 
-        public double CountingAddingCarsPollution(int AmountOfCars, bool SpecialMode)
+        public double CountingAddingCarsPollution()
         {
             double Add;
             Add = AmountOfCars/20000; //
@@ -37,5 +37,6 @@ namespace _4_Course_
             return CarPollution;
 
         }
+
     }
 }
